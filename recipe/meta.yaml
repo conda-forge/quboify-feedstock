@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 {% set python_min = "3.13.3" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/q/quboify/quboify-{{ version }}.tar.gz
-  sha256: 532f359c212f3d0c9e5bf49f575ba7dbd9db8acb408983c41530f1ef79e3aac5
+  sha256: 01a1f1dcddb01acad7473dd79105eafbcdf26228ec88c597acd1cc3d1fd59ea0
 
 build:
   noarch: python
